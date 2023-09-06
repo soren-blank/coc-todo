@@ -22,7 +22,6 @@
     width: 100%;
     max-width: 500px;
     text-align: center;
-    font-size: 18px;
     margin: 50px auto 20px;
     background-color: #fbe049;
     padding: 10px;
@@ -46,7 +45,7 @@
     width: 100%;
     max-width: 500px;
     background-color: #fff;
-    margin: 5px auto 20px;
+    margin: 5px auto 10px;
     padding: 5px 30px 70px;
     border-radius: 10px;
 }
@@ -131,4 +130,27 @@ ul li span{
     background-image: url(images/cross.png);
     background-size: cover;
     background-position: center;
+}
+
+
+@media only screen and (max-width: 815px) {
+
+
+
+
+    .add-task input{
+        font-size: 14px;
+    }
+
+    .add-task button{
+        font-size: 14px;
+    }
+
+    .app{
+        margin: 5px auto 10px;
+        padding: 5px 15px 50px;
+        border-radius: 10px;
+    }
+
+
 }
